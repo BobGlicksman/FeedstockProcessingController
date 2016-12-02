@@ -1,3 +1,14 @@
+The Feedstock Processing Controller (Controller) uses the hardware, libraries and construction/test documentation 
+from the Open Source Controller, by Bob Glicksman and Curbie (https://github.com/BobGlicksman/OpenSourceController).  
+Software has been written to utilize this Controller to support feedstock processing experimentation and operations. 
+The Controller monitors a process’ temperature and includes a countdown stop watch timer.  The basic processing 
+functions supported are temperature and time monitoring.  The Controller is intended for use in feedstock processing 
+experimentation where a batch of feedstock, with enzymes and other chemical agents added, must be cooked, i.e. held 
+within a specific temperature range, for some pre-specified period of time. 
+
+NOTE:  This project requires use of Arduino IDE version 022.  The included libraries are not supported under
+Arduino IDE versions 1.x.
+
 This repository contains files for the Feedstock Processing Controller, release package 1.1.
 The repository contains the following folders and their contents:
 
